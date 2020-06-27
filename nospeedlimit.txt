@@ -39,14 +39,14 @@ game:service'RunService'.Stepped:Connect(function()
 if W then
 for i,v in pairs(car:GetDescendants()) do 
 if v:IsA"BasePart" then 
-v.Velocity = v.Velocity*1.01
+v.Velocity = v.Velocity*1.04
 end
 end
 end
 if S then
 for i,v in pairs(car:GetDescendants()) do 
 if v:IsA"BasePart" then 
-v.Velocity = v.Velocity*0.95
+v.Velocity = v.Velocity*0.99
 end
 end
 end
